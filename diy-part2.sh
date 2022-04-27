@@ -12,3 +12,4 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt 21.02-SNAPSHOT/Build $(TZ=UTC-8 date "+%Y.%m.%d") By JJ/g' package/default-settings/files/zzz-default-settings
